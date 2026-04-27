@@ -1,0 +1,26 @@
+body {
+    /* Путь к изображению */
+    background-image: url('backgrnd_m.png');
+    /* Изображение не повторяется */
+    background-repeat: no-repeat;
+    /* Масштабирование под размер экрана (растягивание) */
+    background-size: cover;
+    /* Центрирование изображения */
+    background-position: center;
+    /* Фиксация фона при прокрутке */
+    background-attachment: fixed;
+}
+.lclass {
+    width: 200px;
+    height: 60px;
+    margin-bottom: 40px;
+    margin-left: 4%;
+    margin-top: 3%;
+    background-color: rgb(0,162,232);
+    font-size: 38px;
+}
+.lclass:hover {
+    background-color: #00B1FF;
+    box-shadow: 2px 2px 100px 5px #21BEFF;
+    color: #0075a7;
+}

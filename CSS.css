@@ -1,0 +1,75 @@
+body {
+    /* Путь к изображению */
+    background-image: url('backgrnd.png');
+    /* Изображение не повторяется */
+    background-repeat: no-repeat;
+    /* Масштабирование под размер экрана (растягивание) */
+    background-size: cover;
+    /* Центрирование изображения */
+    background-position: center;
+    /* Фиксация фона при прокрутке */
+    background-attachment: fixed;
+}
+.classes {
+    width: 430px;
+    display: flex;
+    height: 680px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.lclass {
+    width: 200px;
+    height: 60px;
+    margin-bottom: 40px;
+    margin-left: 4%;
+    margin-top: 3%;
+    background-color: rgb(0,162,232); 
+    font-size: 35px;
+}
+.main {
+    display: flex;
+    width: 100%;
+
+}
+.class7 {
+    width: 1000px;
+    background-color: #009add;
+    margin-left: 27%;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #007bb1;
+
+}
+
+.lclass:hover {
+    background-color: #00B1FF;
+    box-shadow: 2px 2px 100px 5px #21BEFF;
+    color: #0075a7;
+
+}
+.joke {
+    /*    color: #0095d5;*/
+    background-color: rgb(19 183 255);
+    font-size: 93px;
+    -webkit-text-stroke: 2px rgb(19 183 255);
+    /*    -webkit-text-stroke: 3px #00597f*/
+}
+p {
+    /*  color: #0095d5;*/
+    color: black;
+    background-color: rgb(19 183 255);
+    font-size: 40px;
+    -webkit-text-stroke: 0px rgb(19 183 255);
+    /*   -webkit-text-stroke: 2px #00597f*/
+}
+.clw {
+    width: 200px;
+    height: 60px;
+    margin-bottom: 40px;
+    margin-left: 40%;
+    margin-top: 3%;
+    background-color: rgb(0,162,232);
+    font-size: 35px;
+}

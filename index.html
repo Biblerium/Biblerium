@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblerium</title>
+    <link rel="stylesheet" href="CSS.CSS" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+    <body>
+        <h1 class="joke">Biblerium</h1>
+        <p>Выберите класс и предмет ниже</p>
+    <div class="main">    
+        <div class="classes">
+            <button onclick="showSubjects('1')" class="lclass">1 класс</button>
+            <button onclick="showSubjects('3')" class="lclass">3 класс</button>
+            <button onclick="showSubjects('5')" class="lclass">5 класс</button>
+            <button onclick="showSubjects('7')" class="lclass">7 класс</button>
+            <button onclick="showSubjects('9')" class="lclass">9 класс</button>
+            <button onclick="showSubjects('11')" class="lclass">11 класс</button>
+            <button onclick="showSubjects('2')" class="lclass">2 класс</button>
+            <button onclick="showSubjects('4')" class="lclass">4 класс</button>
+            <button onclick="showSubjects('6')" class="lclass">6 класс</button>
+            <button onclick="showSubjects('8')" class="lclass">8 класс</button>
+            <button onclick="showSubjects('10' )" class="lclass">10 класс</button>
+        </div>
+        <div id="subjects" class="class7">
+            <h1>Yo wsp</h1>
+        </div>
+        
+    </div>
+        
+
+    </body>
+
+</html>
+<script>
+    
+    function showSubjects(cls) {
+        let html = ""
+        if (cls === "1") {
+            html = `
+            <h1 class="clw">1 класс</h1>
+            <a href="error.html"><button class="lclass">Математика</button></a>
+            <a href="error.html"><button class="lclass">Русский</button></a>
+            <a href="error.html"><button class="lclass">Литература</button></a>
+            ` ;
+        }
+        if (cls === "2") {
+            html = `<h1 class="clw">2 класс</h1>
+            <a href="error.html"><button class="lclass">Литература</button></a>
+            <a href="error.html"><button class="lclass">Математика</button></a>
+            <a href="error.html"><button class="lclass">Русский</button></a>
+            ` ;
+        }
+        if (cls === "3") {
+            html = `<h1 class="clw">3 класс</h1>
+            <a href="error.html"><button class="lclass">Математика</button></a>
+            <a href="error.html"><button class="lclass">Русский</button></a>
+            <a href="error.html"><button class="lclass">Литература</button></a>
+            ` ;
+        }
+        if (cls === "4") {
+            html = `<h1 class="clw">4 класс</h1>
+            <a href="error.html"><button class="lclass">Математика</button></a>
+            <a href="error.html"><button class="lclass">Русский</button></a>
+            <a href="error.html"><button class="lclass">Литература</button></a>
+            ` ;
+        }
+        if (cls === "5") {
+            html = `<h1 class="clw">5 класс</h1>
+            <a href="error.html"><button class="lclass">Математика</button></a>
+            <a href="error.html"><button class="lclass">Русский</button></a>
+            <a href="error.html"><button class="lclass">Литература</button></a>
+            <a href="error.html"><button class="lclass">История</button></a>
+            ` ;
+        }
+        if (cls === "6") {
+            html = `<h1 class="clw">6 класс</h1>
+            <a href="error.html"><button class="lclass">Математика</button></a>
+            <a href="error.html"><button class="lclass">Русский</button></a>
+            <a href="error.html"><button class="lclass">Литература</button></a>
+            <a href="error.html"><button class="lclass">История</button></a>
+            ` ;
+        }
+        if (cls === "7") {
+            html = `           <h1 class="clw">7 класс</h1> 
+            <a href="classes/7/math_7/biblerium_math_algebra_7.html"><button class="lclass">Алгебра</button></a>
+            <a href="classes/7/math_7/biblerium_math_geometry_7.html"><button class="lclass">Геометрия</button></a>
+            <a href="error.html"><button class="lclass">Русский</button></a>
+            <a href="error.html"><button class="lclass">Физика</button></a>
+            
+            ` ;
+        }
+        if (cls === "8") {
+            html = `            <h1 class="clw">8 класс</h1>
+            <a href="error.html"><button class="lclass">Алгебра</button></a>
+            <a href="error.html"><button class="lclass">Геометрия</button></a>
+            <a href="error.html"><button class="lclass">Русский</button></a>
+            <a href="error.html"><button class="lclass">Физика</button></a>
+            
+            ` ;
+        }
+        if (cls === "9") {
+            html = `            <h1 class="clw">9 класс</h1>
+            <a href="error.html"><button class="lclass">Алгебра</button></a>
+            <a href="error.html"><button class="lclass">Геометрия</button></a>
+            <a href="error.html"><button class="lclass">Русский</button></a>
+            <a href="error.html"><button class="lclass">Физика</button></a>
+            
+            ` ;
+        }
+        if (cls === "10") {
+            html = `            <h1 class="clw">10 класс</h1>
+            <a href="error.html"><button class="lclass">Алгебра</button></a>
+            <a href="error.html"><button class="lclass">Геометрия</button></a>
+            <a href="error.html"><button class="lclass">Русский</button></a>
+            <a href="error.html"><button class="lclass">Физика</button></a>
+            
+            ` ;
+        }
+        if (cls === "11") {
+            html = `            <h1 class="clw">11 класс</h1>
+            <a href="error.html"><button class="lclass">Алгебра</button></a>
+            <a href="error.html"><button class="lclass">Геометрия</button></a>
+            <a href="error.html"><button class="lclass">Русский</button></a>
+            <a href="error.html"><button class="lclass">Физика</button></a>
+            
+            ` ;
+        }
+        document.getElementById("subjects").innerHTML = html;
+    }
+
+</script>

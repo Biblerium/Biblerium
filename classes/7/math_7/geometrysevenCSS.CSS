@@ -1,0 +1,12 @@
+body {
+    /* Путь к изображению */
+    background-image: url('backgrnd_m.png');
+    /* Изображение не повторяется */
+    background-repeat: no-repeat;
+    /* Масштабирование под размер экрана (растягивание) */
+    background-size: cover;
+    /* Центрирование изображения */
+    background-position: center;
+    /* Фиксация фона при прокрутке */
+    background-attachment: fixed;
+}
